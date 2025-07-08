@@ -1,0 +1,106 @@
+#header{
+    height:100px;
+    background:green;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+*{
+    margin:0;
+    padding:0;
+}
+.lists{
+    display: flex;;
+}
+.list{
+    list-style: none;
+}
+.a{
+    text-decoration: none;
+    margin-left: 10px;
+    color:black;
+    font-family:Poppins;
+}
+h1{
+    color:white;
+    cursor:pointer;
+    font-size: xxx-large;
+}
+h1:hover{
+    color:rgba(255, 255, 255, 0.579);
+}
+.a:hover{
+    color:brown;
+}
+.login{
+    background-color:rgb(3 86 209) ;
+    color:white;
+    font-size:20px;
+    margin-left: 20px;
+    height: 60px;
+    width: 110px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+.login:hover{
+    background-color: blueviolet;
+    cursor:pointer;
+}
+#body{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.img{
+    height: 300px;
+    width:300px;
+    margin: 20px;
+    border-radius:50px;
+    margin-top:100px;
+    justify-content: space-around;
+    align-items: center;
+}
+.imtext{
+    margin-bottom: 80px;
+    font-weight: bold;
+    font-size: x-large;
+    font-family: "Libertinus Math";
+    margin-left: 80px;
+}
+#footer{
+    height:300px;
+    width:500px;
+    background-color: green;
+    margin-left:500px;
+     border-radius: 100px;
+}
+.Contact{
+    font-size: xx-large;
+    /* text-align: center; */
+    color:white;
+    padding:9px;
+    padding-left: 170px;
+
+}
+.label{
+    padding:100px;
+    color:white;
+
+}
+.btn{
+    margin-left: 200px;
+    background-color:rgb(3 86 209);
+    border-radius: 10px;
+    height:50px;
+    width:100px;
+    cursor: pointer;
+    font-size: medium;
+    outline:none;
+    border:0
+}
+.btn:hover{
+    background-color: blueviolet;
+}
+
+
