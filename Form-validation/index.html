@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <section id="header"> 
+    <h1>Register</h1>
+    </section>
+
+    <section id="body"> 
+    <form onsubmit="return formValidate()">
+        <div id="attribute"> 
+
+        <div>
+        <label>Name:</label>
+        <input type="text" placeholder="Enter your name" id="name">
+        <span style="display:none;"id="nameerror">First name is required</span>
+        <span style="display:none;" id="namelenerror">Name should contain three characters</span>
+        </div>
+
+        <div> 
+        <label>Email:</label>
+        <input type="email" placeholder="Enter your email" id="email">
+        <span style="display:none;" id="emailerror">Email is required</span>
+        <span style="display:none;" id="emailpatternerror">Enter a valid email</span>
+        </div>
+
+        <div> 
+        <label>Password:</label>
+        <input type="password" placeholder="Enter your password" id="password">
+        <span style="display: none;" id="passworderror">Password is required</span>
+        <span style="display:none;" id="passwordpatternerror">Enter a valid password</span>
+        </div>
+
+        <div>   
+        <label>Phone:</label>
+        <input type="number" placeholder="Enter your number" id="phone">
+        <span style="display:none;" id="phoneerror">Phone number is required</span>
+        <span style="display:none;" id="phonelenerror">Phone number should contain only 10 digits</span>
+        </div>
+
+        <div> 
+        <label>Country:</label> 
+        <select id="country">
+            <option>Select Country</option>
+            <option>India</option>
+            <option>US</option>
+            <option>China</option>
+            <option>Australia</option>
+        </select>
+        <span style="display:none;" id="countryerror">Country is required</span>
+        </div>
+
+        <div> 
+        <input type="submit" value="Submit" id="submit">
+        </div>
+
+         <p id="log">Already have an account? <a href="Login">Login</a></p>
+
+        </div>
+        </form>
+        <script src="app.js"></script>
+        </section>
+
+        <section id="footer"> 
+            <p>&copy All rights reserved</p>
+        </section>
+    
+</body>
+</html>
+
+
+
+

@@ -1,0 +1,44 @@
+body{
+    background: linear-gradient(90deg,#aabbcc,#2233ff);
+}
+h1{
+    text-align: center;
+    margin:50px;
+    font-size: xx-large;
+}
+#attribute
+{
+    background: rgba(255,255,255,0.4);
+    border:1px solid rgba(0,0,0,0.1);
+    width:max-content;
+    margin:auto;
+    padding:30px;
+    border-radius: 50px;    
+}
+label{
+    font-size:large;
+}
+div{
+    margin-top:10px;
+}
+#submit{
+    margin-top:20px;
+    margin-left:80px;
+    border-radius: 5px;
+    border:none;
+    background: #2233ff;
+    height:30px;
+    width:80px;
+    font-size:15px;
+
+}
+#submit:hover{
+    background:green;
+}
+#footer{
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left:0;
+    width:100%;
+}
