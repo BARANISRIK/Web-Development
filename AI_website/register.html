@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
-<html> 
+<html lang="en"> 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,13 +9,13 @@
     <form>
     <h1 align="center">Register</h1>
     <label for="Username">Username:</label>
-    <input type="name" placeholder="Enter your name"><br><br>
+    <input type="text" placeholder="Enter your name" name="name" id="name"><br><br>
     <label for="email">Email:</label>
-    <input type="email" placeholder="Enter your mail"><br><br>
+    <input type="email" placeholder="Enter your mail" name="email" id="email" required><br><br>
     <label for="password">Password:</label>
-    <input type="password" placeholder="Enter your password"><br><br>
+    <input type="password" placeholder="Enter your password" name="password" id="password"><br><br>
     <label for="Confirm password">Confirm password:</label>
-    <input type="password" placeholder="Enter your password"><br><br>
+    <input type="password" placeholder="Enter your password" name="confirmpassword" id="confirmpassword"><br><br>
     <label for="gender">Gender: </label>
     <input type="radio" name="gender">Male
     <input type="radio" name="gender">Female
@@ -28,9 +27,8 @@
         <option>Machine Learning</option>
         <option>Data Science</option>
     </select><br><br>
-
-    <input type="submit" value="Register">
-    <p>If already registered,<a href="login">Sign in</a></p>
+<input type="submit" value="Register">
+    <p>If already registered,<a href="login.html">Sign in</a></p>
     <a href="ml.html">Back</a><br>
     <a href="index.html">Home</a>
     </form>
